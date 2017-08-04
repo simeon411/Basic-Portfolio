@@ -1,0 +1,173 @@
+html{
+	margin: 0 auto;
+}
+
+body{
+	margin: 0 auto;
+	background-image: url("../images/concrete-texture.png");
+	/*height: 100%;*/
+}
+
+header {
+	margin: 0 auto;
+	border: 1px transparent #cccccc;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.mainWrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+	margin-bottom: 10px;
+}
+.largeName{
+	background-color: #4aaaa5;
+	padding: 25px;
+	display: inline-block;
+	font-family: Georgia, Times, serif;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+
+.navButton{
+
+	display: inline-block;
+	float: right;
+	padding: 10px;
+	margin-top: 25px;
+	margin-left: 5px;
+	font-size: 20px;
+	color: #777777;
+	font-family: Georgia, Times, Times New Roman, serif;
+
+}
+
+.gallery{
+	width: 100%;
+	text-align: center;
+}
+
+.galbox{
+	margin-bottom: 40px;
+	margin-right: 25px;
+	text-align: center;
+	width: 45%;
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+}
+.galboxRight {
+	float: right;
+	text-align: center;
+	width: 45%;
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.imgBox{
+	margin: 10px;
+	margin-bottom: 25px;
+	height: 60px;
+	box-sizing: border-box;
+}
+
+.overText{
+	background-color: #4aaaa5;
+	margin: 0 auto;
+	padding: 20px;
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+}
+
+section{
+	width: 650px;
+	border: 1px solid;
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+aside{
+	position: relative;
+	width: 270px;
+	border: 1px solid;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+	box-sizing: border-box;
+	background-color: #ffffff;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	padding: 25px;
+	height: 50px;
+	margin: 0 auto;
+	border: 1px solid;
+	background-color: #666666;
+	text-align: center;
+	vertical-align: center;
+	color: white;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+
+}
+hr{
+	height: 1px;
+	margin-bottom: 15px;
+}
+h2{
+	padding: 10px;
+	font-size: 40px;
+	color: #4aaaa5;
+	font-family: serif;
+	font-weight: 900;
+}
+h3{
+	padding: 5px;
+	font-size: 25px;
+	color: #4aaaa5;
+	font-family: serif;
+	text-align: center;
+	font-weight: 900;
+
+}
+p{
+	font-family: 'Helvetica Neue';
+	font-size: 20px;
+	color: #777777;
+}
+
+.profilePic{
+	margin-right: 10px;
+	width:300px;
+	height:200px;
+	float: left;
+	display: inline;
+}
+
+.mainText{
+	border: 1px solid;
+	float:left;
+	display: inline;
+}
+
